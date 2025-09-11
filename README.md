@@ -1,88 +1,64 @@
-# 🛎️ Competitive Programming Notifier Bot
+# 🎓 IIITB CGPA Calculator
 
-A lightweight Python-based Telegram bot that notifies users about upcoming **Codeforces** and **LeetCode** contests in real-time and via `/start` command on Telegram.
+A sleek, modern web app for IIITB students to calculate CGPA with style. No BS, just clean code and great UX.
 
-## 📦 Features
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-iiitb--cgpa--calculator.netlify.app-blue?style=for-the-badge)](https://iiitb-cgpa-calculator.netlify.app/)
 
-- 🔔 Sends automatic notifications for upcoming contests.
-- 📅 Fetches contests from Codeforces and LeetCode APIs.
-- ⚡ Telegram `/start` command to list upcoming contests manually.
-- 🌐 Runs continuously using asyncio and threading.
+## ⚡ Features
 
-## 🚀 Setup Instructions
+- **📊 Subject-wise Entry** - Individual grades and credits for accurate calculation
+- **🌓 Dark/Light Mode** - Theme toggle that actually looks good
+- **📱 Mobile First** - Touch-optimized, works everywhere
+- **🎯 Real-time SGPA** - See results as you type
+- **🔒 Privacy Focused** - Everything happens locally, zero tracking
 
-### 1. Clone the Repo
+## 🛠️ Tech Stack
 
-```bash
-git clone https://github.com/your-username/cp-notifier-bot.git
-cd cp-notifier-bot
-```
+**Pure Vanilla:** HTML5 • CSS3 • JavaScript (ES6+)  
+**Design:** Glassmorphism • CSS Grid • Custom Properties  
+**Hosting:** Netlify
 
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Set Your Telegram Bot Token
-
-Replace the value of `BOT_TOKEN` in both:
-
-- `cp1_notifier_bot.py`
-- `get_chat_id.py`
-
-> You can get a bot token by talking to [@BotFather](https://t.me/BotFather)
-
-### 4. Get Your Chat ID
-
-Run the following script to get your chat ID:
+## 🚀 Quick Start
 
 ```bash
-python get_chat_id.py
+git clone https://github.com/KeyserSozeIN/iiitb-cgpa-calculator.git
+cd iiitb-cgpa-calculator
+open index.html
 ```
 
-Send a message to your bot, then check the terminal output for your chat ID.
+## 📊 IIITB Grading Scale
 
-Update `CHAT_ID` in `cp1_notifier_bot.py` with that value.
+| A | A- | B+ | B | B- | C+ | C | D | F |
+|---|----|----|---|----|----|---|---|---|
+| 4.0 | 3.7 | 3.4 | 3.0 | 2.7 | 2.4 | 2.0 | 1.0 | 0.0 |
 
-### 5. Run the Bot
+## 🎯 Why This Rocks
 
-```bash
-python cp1_notifier_bot.py
-```
+- **Zero Dependencies** - No bloated frameworks
+- **Lightning Fast** - Loads in < 1 second
+- **Actually Responsive** - Not just "mobile-friendly"
+- **Clean Code** - Easy to read, easier to modify
+- **Student-Tested** - Built by students, for students
 
-You'll see:
+## 🤝 Contributing
 
-- `✅ Telegram /start handler is live`
-- `🚨 Contest notifier is running...`
+Found a bug? Want a feature? 
+1. Fork it
+2. Fix it
+3. PR it
 
-You're all set!
+## 📄 License
 
-## 🛠 Technologies Used
+MIT License - Use it, modify it, share it.
 
-- Python 3.8+
-- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
-- Codeforces & LeetCode APIs
-- AsyncIO and threading
+---
 
-## 🧪 Commands
 
-### `/start`
-Returns a Markdown-formatted list of all upcoming contests sorted by date.
 
-## 📁 File Overview
+**🌐 [Try it now](https://iiitb-cgpa-calculator.netlify.app/) • Built by [Santhosh Kiran](https://toouglytoprostitute.netlify.app/)**
 
-| File                | Description |
-|---------------------|-------------|
-| `cp1_notifier_bot.py` | Main bot file that fetches and sends contest updates |
-| `get_chat_id.py`      | Utility to fetch your Telegram chat ID |
-| `requirements.txt`    | Python dependencies |
+[![GitHub](https://img.shields.io/badge/GitHub-KeyserSozeIN-black?style=flat&logo=github)](https://github.com/KeyserSozeIN)
+[![Portfolio](https://img.shields.io/badge/Portfolio-toouglytoprostitute.netlify.app-blue?style=flat)](https://toouglytoprostitute.netlify.app/)
 
-## 📌 Notes
+**Made with ❤️ for IIITB**
 
-- This bot is designed for personal use in private chats or small groups.
-- Make sure the bot is started once before fetching chat IDs.
-
-## 📝 License
-
-MIT License © 2025 Your Name
