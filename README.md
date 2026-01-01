@@ -21,7 +21,7 @@ A sleek, modern web app for IIITB students to calculate CGPA with style. No BS, 
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/KeyserSozeIN/iiitb-cgpa-calculator.git
+git clone https://github.com/<user-name>/iiitb-cgpa-calculator.git
 cd iiitb-cgpa-calculator
 open index.html
 ```
