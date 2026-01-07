@@ -8,7 +8,6 @@ A sleek, modern web app for IIITB students to calculate CGPA with style. No BS, 
 
 - **📊 Subject-wise Entry** - Individual grades and credits for accurate calculation
 - **🌓 Dark/Light Mode** - Theme toggle that actually looks good
-- **📱 Mobile First** - Touch-optimized, works everywhere
 - **🎯 Real-time SGPA** - See results as you type
 - **🔒 Privacy Focused** - Everything happens locally, zero tracking
 
@@ -34,31 +33,13 @@ open index.html
 
 ## 🎯 Why This Rocks
 
-- **Zero Dependencies** - No bloated frameworks
-- **Lightning Fast** - Loads in < 1 second
 - **Actually Responsive** - Not just "mobile-friendly"
 - **Clean Code** - Easy to read, easier to modify
 - **Student-Tested** - Built by students, for students
 
-## 🤝 Contributing
+## Contributing
 
 Found a bug? Want a feature? 
 1. Fork it
 2. Fix it
 3. PR it
-
-## 📄 License
-
-MIT License - Use it, modify it, share it.
-
----
-
-
-
-**🌐 [Try it now](https://iiitb-cgpa-calculator.netlify.app/) • Built by [Santhosh Kiran](https://toouglytoprostitute.netlify.app/)**
-
-[![GitHub](https://img.shields.io/badge/GitHub-KeyserSozeIN-black?style=flat&logo=github)](https://github.com/KeyserSozeIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-toouglytoprostitute.netlify.app-blue?style=flat)](https://toouglytoprostitute.netlify.app/)
-
-**Made with ❤️ for IIITB**
-
